@@ -48,6 +48,20 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger_icon"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" data-menu-close>Close</button>
+          <nav class="mobile-menu-nav">Navigation</nav>
+          <address>Address</address>
+          <div>Soc link</div>
+        </div>
       </div>
     </header>
     <main>
@@ -55,9 +69,12 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="order-servise" type="button">Order Service</button>
+          <button class="order-servise" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
+
       <!--Our benefits-->
       <section class="benefits-section section-padding" id="benefits">
         <div class="container benefits-container">
@@ -614,5 +631,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
