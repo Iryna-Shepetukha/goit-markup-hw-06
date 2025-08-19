@@ -691,10 +691,15 @@ body {
 
 .social {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+
+.social-icon-footer {
+  padding: 72px;
 }
 
 .icon-list-footer {
@@ -727,7 +732,7 @@ body {
 
 /*-- FOOTER FORM --*/
 
-/*.footer-form-p {
+.footer-form-p {
   display: inline-block;
   font-weight: 500;
   font-size: 16px;
@@ -793,3 +798,42 @@ body {
   fill: #fff;
   margin-left: 16px;
 }
+
+@media screen and (min-width: 756px) {
+  /*.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: calc((100% - 10px) / 2);
+  }*/
+}
+
+@media screen and (min-width: 1158px) {
+  /*.page-footer {
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  
+  }*/
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .footer-form-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-part-1 {
+    margin-right: 120px;
+}
+
