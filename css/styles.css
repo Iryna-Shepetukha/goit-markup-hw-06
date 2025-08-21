@@ -690,6 +690,10 @@ body {
   margin: 0 auto;
 }
 
+.logo-color-footer {
+  color: #f4f4fd;
+}
+
 .footer-logo {
   display: block;
   text-align: center;
@@ -702,11 +706,6 @@ body {
   color: #4d5ae5;
   margin-bottom: 16px;
   text-decoration: none;
-}
-
-.logo-color-footer,
-.footer-logo {
-  color: #f4f4fd;
 }
 
 .footer-text {
@@ -725,7 +724,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  text-align: center;
+  text-align: left;
 }
 
 .social-icon-footer {
